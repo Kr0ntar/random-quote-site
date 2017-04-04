@@ -1,0 +1,103 @@
+h1 {
+	text-align: center;
+}
+
+body {
+	background-image: url("../img/gradient 01.jpg");
+}
+
+#button, #back-button, #tweet-button	{
+	position: relative;
+	top: 200px;
+	width: 30%;
+	height: 50px;
+	line-height: 50px;
+	background: #daa520;
+	margin: 0 auto;
+	border-radius: 5px;
+}
+
+#back-button {
+	position: relative;
+	display: inline-block;
+	top: 120px;
+	width: 30%;
+	left: 320px;
+	height: 50px;
+	line-height: 50px;
+	background: #daa520;
+	/*margin: 0 auto;*/
+	border-radius: 5px;	
+}
+
+#tweet-button {
+	position: relative;
+	display: inline-block;
+	top: 120px;
+	width: 30%;
+	left: -120px;
+	height: 50px;
+	line-height: 50px;
+	background: #daa520;
+	border-radius: 5px;		
+}
+
+#button p, #back-button p, #tweet-button p {
+	font-family: cursive;
+	text-align: center;
+}
+
+#back-button p, #tweet-button p {
+	margin: auto;
+}
+
+#button p:hover, #back-button p:hover, #tweet-button p:hover {
+	cursor: pointer;
+}
+
+.hidden-div {
+	display: none;
+}
+
+.show-div {
+	/*stitching*/
+	outline: 1px dashed #98abb9;
+	outline-offset: -5px;
+	
+	background-color: #556068;
+	height: 200px;
+	/*line-height: 200px;*/
+	width: 500px;
+	margin: 100px auto;
+	
+	/*shadow*/
+	-webkit-box-shadow: 2px 2px 2px #000;
+	-moz-box-shadow: 2px 2px 2px #000;
+	box-shadow: 2px 2px 2px #000;
+	/*width: 50%;
+	height: 100px;
+	background: red;
+	margin: 0 auto;*/
+}
+
+.quote {
+	position: relative;
+	top: 50px;
+	font-size: 20px;
+	/*margin: 0 auto;*/
+	/*line-height: 500px;*/
+	font-family: Helvetica, sans-serif;
+	font-weight: bold;
+	text-align: center;
+}
+
+.author {
+	position: relative;
+	top: 70px;
+	font-size: 20px;
+	/*line-height: 500px;*/
+	font-family: Helvetica, sans-serif;
+	font-weight: bold;
+	text-align: center;
+}
+
